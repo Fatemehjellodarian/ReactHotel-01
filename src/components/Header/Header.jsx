@@ -9,7 +9,7 @@ const [destination,setDestination] = useState("");
 const [openOptions,setOpenOptions] = useState(false);
 const [options,setOptions] = useState({
     adult: 1,
-    children: 1,
+    children: 0,
     room: 1,
 })
 
@@ -61,14 +61,14 @@ const [options,setOptions] = useState({
 
 export default Header;
 
-function GuestOptionsList () {
+function GuestOptionsList ({options}) {
 
     return(
         <div className="guestOptions">
 
-            <OptionItem/>
-            <OptionItem/>
-            <OptionItem/>
+            <OptionItem type="adult" options={options} minLimit={1}/>
+            <OptionItem type="children" options={options} minLimit={5}/>
+            <OptionItem type="room" options={options} minLimit={1}/>
 
         </div>
     );
@@ -76,14 +76,14 @@ function GuestOptionsList () {
 }
 
 
-function OptionItem (){
+function OptionItem ({options,type,minLimit}){
     return(            <div className="guestOptionItem">
-                <span className="OptionText">Adult</span>
+                <span className="OptionText">{type}</span>
                 <div className="optionCounter">
                     <button className="optionCounterBtn">
                         <HiMinus className="icon"/>
                     </button>
-                    <span className="optionCounterNumber">2</span>
+                    <span className="optionCounterNumber">{options[type]}</span>
                     <button className="optionCounterBtn">
                         <HiPlus className="icon"/>
                     </button>
