@@ -10,8 +10,8 @@ import { createSearchParams, useNavigate ,useSearchParams } from "react-router-d
 
 
 function Header() {
-
-const [destination,setDestination] = useState("");
+const [searchParams,setSearchParams] = useSearchParams();
+const [destination,setDestination] = useState(searchParams.get("destination")||"");
 const [openOptions,setOpenOptions] = useState(false);
 const [options,setOptions] = useState({adult: 1,children: 0, room: 1,});
 const handleOptions = (name,operation)=>{
@@ -28,7 +28,7 @@ const [openDate, setOpenDate] = useState(false);
 
 
 const navigate = useNavigate();
-const [searchParams,setSearchParams] = useSearchParams();
+
 const handleSearch = ()=>{
 const encodedParams = createSearchParams({
 date:JSON.stringify(date),
