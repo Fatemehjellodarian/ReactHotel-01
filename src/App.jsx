@@ -5,10 +5,12 @@ import LocationList from "./components/LocationList/LocationList";
 import { Routes,Route } from "react-router-dom";
 import AppLayout from "./components/AppLayout/AppLayout";
 import Hoteles from "./components/Hotels/Hoteles";
+import HotelsProvider from "./components/Context/HotelsProvider";
  
 
 function App() {
-  return (<div>
+  return (
+    <HotelsProvider>
       <Toaster/>
       <Header/>
       <Routes>
@@ -19,8 +21,9 @@ function App() {
         </Route>
 
       </Routes>
+      </HotelsProvider>
       
-    </div>) ;
+    ) ;
   
   }
 export default App;
