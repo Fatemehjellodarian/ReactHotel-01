@@ -15,7 +15,7 @@ const [destination,setDestination] = useState(searchParams.get("destination")||"
 const [openOptions,setOpenOptions] = useState(false);
 const [options,setOptions] = useState({adult: 1,children: 0, room: 1,});
 const handleOptions = (name,operation)=>{
-    console.log(name , operation);
+    //console.log(name , operation);
  setOptions((prev)=>
  {return{ ...prev, [name]: operation === "inc" ? options[name] + 1 : options[name] - 1, };});};
 
@@ -60,7 +60,7 @@ options:JSON.stringify(options),
                  className="headerSearchIcon" 
                   name="destination"
                   id="destination" />
-                  <span className="seperator"></span> </div>
+                  <span className="separator"></span> </div>
 
 
                   
@@ -86,7 +86,7 @@ options:JSON.stringify(options),
               minDate={new Date()}
               moveRangeOnFirstSelection={true}
             />
-          )}<span className="seperator"></span></div>
+          )}<span className="separator"></span></div>
 
 
 
@@ -108,7 +108,7 @@ options:JSON.stringify(options),
                  handleOptions={handleOptions} 
                  options={options} />}
 
-                <span className="seperator"></span> </div>
+                <span className="separator"></span> </div>
 
 
 
