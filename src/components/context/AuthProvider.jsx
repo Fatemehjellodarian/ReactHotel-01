@@ -30,11 +30,12 @@ const FAKE_USER = {
   password: "1234",
 };
 
-export default function AuthProvier({ children }) {
+export default function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     authReducer,
     initialState
   );
+  console.log( user, isAuthenticated);
 
   function login(email, password) {
     if (email === FAKE_USER.email && password === FAKE_USER.password)

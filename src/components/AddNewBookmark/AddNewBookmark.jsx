@@ -72,7 +72,7 @@ function AddNewBookmark() {
   };
 
   if (isLoadingGeoCoding) return <Loader />;
-  if (geoCodingError) return <storng>{geoCodingError}</storng>;
+  if (geoCodingError) return <strong>{geoCodingError}</strong>;
 
   return (
     <div>

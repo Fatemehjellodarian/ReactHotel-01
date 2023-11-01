@@ -6,6 +6,7 @@ import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRange } from "react-date-range";
 import { format } from "date-fns";
+
 import {
   NavLink,
   createSearchParams,
@@ -172,7 +173,7 @@ function OptionItem({ options, type, minLimit, handleOptions }) {
 
 function User() {
   const navigate = useNavigate();
-  const { user, isAuthenticated, logout } = useAuth();
+  // const { user, isAuthenticated, logout } = useAuth();
   const handleLogout = () => {
     logout();
     navigate("/");
@@ -180,7 +181,7 @@ function User() {
 
   return (
     <div>
-      {isAuthenticated ? (
+      {/* {isAuthenticated ? (
         <div>
           <strong>{user.name}</strong>
           <button>
@@ -189,7 +190,7 @@ function User() {
         </div>
       ) : (
         <NavLink to="/login">login</NavLink>
-      )}
+      )} */}
     </div>
   );
 }

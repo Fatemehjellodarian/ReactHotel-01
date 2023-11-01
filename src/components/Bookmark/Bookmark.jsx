@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 import { HiTrash } from "react-icons/hi";
 
 function Bookmark() {
-  const { isLoading, bookmarks, currentBookmark, deleteBookmark } =
-    useBookmark();
+  const { isLoading, bookmarks, currentBookmark, deleteBookmark } = useBookmark();
 
   const handleDelete = async (e, id) => {
     e.preventDefault();

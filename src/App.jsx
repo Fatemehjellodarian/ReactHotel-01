@@ -7,12 +7,16 @@ import AppLayout from "./components/AppLayout/AppLayout";
 import Hotels from "./components/Hotels/Hotels";
 import HotelsProvider from "./components/Context/HotelsProvider";
 import SingleHotel from "./components/SingleHotel/SingleHotel";
-import BookMark from "./components/Bookmark/BookMark";
-
+import Bookmark from "./components/Bookmark/Bookmark";
+import AuthProvider from "./components/context/AuthProvider";
+import BookmarkListProvider from "./components/context/BookmarkListContext";
  
 
 function App() {
   return (
+    <AuthProvider>
+      <BookmarkListProvider>
+
     <HotelsProvider>
       <Toaster/>
       <Header/>
@@ -23,9 +27,13 @@ function App() {
           <Route path=":id" element={<SingleHotel/>}/>
         </Route> 
         
-        <Route path="/bookmark" element={<BookMark/ >}/>
+        <Route path="/bookmark" element={<Bookmark/ >}/>
       </Routes>
       </HotelsProvider>
+      </BookmarkListProvider>
+      
+
+    </AuthProvider>
       
     ) ;
   
