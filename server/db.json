@@ -1343,15 +1343,6 @@
       "id": 5
     },
     {
-      "cityName": "A Dakhla Oasis",
-      "country": "Egypt",
-      "countryCode": "EG",
-      "latitude": "25.02090651422749",
-      "longitude": "29.09059588509316",
-      "host_location": "A Dakhla Oasis Egypt",
-      "id": 7
-    },
-    {
       "cityName": "Baba Kot",
       "country": "Pakistan",
       "countryCode": "PK",
@@ -1359,6 +1350,42 @@
       "longitude": "67.78003711374224",
       "host_location": "Baba Kot Pakistan",
       "id": 8
+    },
+    {
+      "cityName": "Tehran",
+      "country": "Iran (Islamic Republic of)",
+      "countryCode": "IR",
+      "latitude": "35.69347905553234",
+      "longitude": "51.32873047302249",
+      "host_location": "Tehran Iran (Islamic Republic of)",
+      "id": 9
+    },
+    {
+      "cityName": "Little Ponton and Stroxton",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "52.86763037744483",
+      "longitude": "-0.6811523437500001",
+      "host_location": "Little Ponton and Stroxton United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 10
+    },
+    {
+      "cityName": "English Channel and North Sea",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "50.062262585711466",
+      "longitude": "0.9887695312500001",
+      "host_location": "English Channel and North Sea France",
+      "id": 11
+    },
+    {
+      "cityName": "Perassay",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "46.47187342457358",
+      "longitude": "2.151260375976563",
+      "host_location": "Perassay France",
+      "id": 13
     }
   ]
 }

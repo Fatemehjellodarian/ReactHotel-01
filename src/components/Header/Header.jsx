@@ -173,7 +173,7 @@ function OptionItem({ options, type, minLimit, handleOptions }) {
 
 function User() {
   const navigate = useNavigate();
-  // const { user, isAuthenticated, logout } = useAuth();
+   const { user, isAuthenticated, logout } = useAuth();
   const handleLogout = () => {
     logout();
     navigate("/");
@@ -181,7 +181,7 @@ function User() {
 
   return (
     <div>
-      {/* {isAuthenticated ? (
+      {isAuthenticated ? (
         <div>
           <strong>{user.name}</strong>
           <button>
@@ -190,7 +190,7 @@ function User() {
         </div>
       ) : (
         <NavLink to="/login">login</NavLink>
-      )} */}
+      )} 
     </div>
   );
 }

@@ -25,12 +25,12 @@ function authReducer(state, action) {
 }
 
 const FAKE_USER = {
-  name: "Saheb",
-  email: "user@gmail.com",
+  name: "Fatemeh",
+  email: "fatemehjellodarian@gmail.com",
   password: "1234",
 };
 
-export default function AuthProvider({ children }) {
+export default function AuthProvier({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     authReducer,
     initialState

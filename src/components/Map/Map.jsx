@@ -57,7 +57,7 @@ function Map({ markerLocations }) {
 }
 export default Map;
 
-function ChangeCenter({ position }) {
+ function ChangeCenter({ position }) {
   const map = useMap();
   map.setView(position);
   return null;
@@ -70,4 +70,5 @@ function DetectClick() {
       navigate(`/bookmark/add?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
   return null;
+  
 }
