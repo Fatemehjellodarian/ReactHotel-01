@@ -6,14 +6,6 @@ import Loader from "../Loader/Loader";
 import ReactCountryFlag from "react-country-flag";
 import { useBookmark } from "../context/BookmarkListContext";
 
-// function getFlagEmoji(countryCode) {
-//   const codePoints = countryCode
-//     .toUpperCase()
-//     .split("")
-//     .map((char) => 127397 + char.charCodeAt());
-//   return String.fromCodePoint(...codePoints);
-// }
-
 const BASE_GEOCODING_URL =
   "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
