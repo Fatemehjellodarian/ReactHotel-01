@@ -1395,6 +1395,15 @@
       "longitude": "-1.9281005859375002",
       "host_location": "Gourma Rharous Mali",
       "id": 15
+    },
+    {
+      "cityName": "Buritizeiro",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "latitude": "-17.39480221923004",
+      "longitude": "-45",
+      "host_location": "Buritizeiro Brazil",
+      "id": 16
     }
   ]
 }
