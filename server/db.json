@@ -1325,15 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Little Ponton and Stroxton",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "countryCode": "GB",
-      "latitude": "52.86763037744483",
-      "longitude": "-0.6811523437500001",
-      "host_location": "Little Ponton and Stroxton United Kingdom of Great Britain and Northern Ireland (the)",
-      "id": 10
-    },
-    {
       "cityName": "Chahar Dangeh",
       "country": "Iran (Islamic Republic of)",
       "countryCode": "IR",
@@ -1359,6 +1350,15 @@
       "longitude": "-45",
       "host_location": "Buritizeiro Brazil",
       "id": 16
+    },
+    {
+      "cityName": "Ti-n-Essako",
+      "country": "Mali",
+      "countryCode": "ML",
+      "latitude": "19.181694006685447",
+      "longitude": "2.6249646765769046",
+      "host_location": "Ti-n-Essako Mali",
+      "id": 17
     }
   ]
 }
