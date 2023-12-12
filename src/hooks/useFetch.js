@@ -17,7 +17,7 @@ export default function useFetch(url, query = "") {
         toast.error(err?.message);
       } finally {
         setIsLoading(false);
-      }
+      }       
     }
 
     fetchData();

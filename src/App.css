@@ -270,6 +270,24 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .header{
+    display: block;
+  
+  }
+
+
+  .headerSearch{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-between;
+  
+  }
+  
+}
+
+  
 /* bookmark page */
 .bookmarkList {
   margin-top: 1rem;

@@ -1325,42 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Mahidasht",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "34.32869425037187",
-      "longitude": "46.724183117022086",
-      "host_location": "Mahidasht Iran (Islamic Republic of)",
-      "id": 4
-    },
-    {
-      "cityName": "Sanandaj",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "35.31372444726279",
-      "longitude": "47.03114358752335",
-      "host_location": "Sanandaj Iran (Islamic Republic of)",
-      "id": 5
-    },
-    {
-      "cityName": "Baba Kot",
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "latitude": "28.43528783183169",
-      "longitude": "67.78003711374224",
-      "host_location": "Baba Kot Pakistan",
-      "id": 8
-    },
-    {
-      "cityName": "Tehran",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "35.69347905553234",
-      "longitude": "51.32873047302249",
-      "host_location": "Tehran Iran (Islamic Republic of)",
-      "id": 9
-    },
-    {
       "cityName": "Little Ponton and Stroxton",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "countryCode": "GB",
@@ -1368,15 +1332,6 @@
       "longitude": "-0.6811523437500001",
       "host_location": "Little Ponton and Stroxton United Kingdom of Great Britain and Northern Ireland (the)",
       "id": 10
-    },
-    {
-      "cityName": "English Channel and North Sea",
-      "country": "France",
-      "countryCode": "FR",
-      "latitude": "50.062262585711466",
-      "longitude": "0.9887695312500001",
-      "host_location": "English Channel and North Sea France",
-      "id": 11
     },
     {
       "cityName": "Chahar Dangeh",
