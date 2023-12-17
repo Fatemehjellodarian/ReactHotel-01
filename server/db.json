@@ -1325,15 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Chahar Dangeh",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "35.58803958815706",
-      "longitude": "51.33889261230472",
-      "host_location": "Chahar Dangeh Iran (Islamic Republic of)",
-      "id": 14
-    },
-    {
       "cityName": "Gourma Rharous",
       "country": "Mali",
       "countryCode": "ML",
@@ -1343,22 +1334,22 @@
       "id": 15
     },
     {
-      "cityName": "Buritizeiro",
-      "country": "Brazil",
-      "countryCode": "BR",
-      "latitude": "-17.39480221923004",
-      "longitude": "-45",
-      "host_location": "Buritizeiro Brazil",
+      "cityName": "In Salah",
+      "country": "Algeria",
+      "countryCode": "DZ",
+      "latitude": "26.63567470224957",
+      "longitude": "3.308696421390725",
+      "host_location": "In Salah Algeria",
       "id": 16
     },
     {
-      "cityName": "Ti-n-Essako",
-      "country": "Mali",
-      "countryCode": "ML",
-      "latitude": "19.181694006685447",
-      "longitude": "2.6249646765769046",
-      "host_location": "Ti-n-Essako Mali",
-      "id": 17
+      "cityName": "Ido",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "latitude": "7.641308972369764",
+      "longitude": "3.8051729920491533",
+      "host_location": "Ido Nigeria",
+      "id": 18
     }
   ]
 }
