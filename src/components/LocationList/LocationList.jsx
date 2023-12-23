@@ -22,7 +22,7 @@ function LocationList() {
                 </p>
               </div>
             </div>
-          );
+          );0
         })}
       </div>
     </div>
