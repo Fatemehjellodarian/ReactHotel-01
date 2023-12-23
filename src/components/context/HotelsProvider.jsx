@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 
 const HotelContext = createContext();
-const BASE_URL = "https://booking-hotel-psi.vercel.app/hotels";
+const BASE_URL = " https://bookinghotel-1zdw.onrender.com/hotels";
 
 function HotelsProvider({ children }) {
   const [currentHotel, setCurrentHotel] = useState(null);

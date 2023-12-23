@@ -9,7 +9,7 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 
 const BookmarkContext = createContext();
-const BASE_URL = "https://booking-hotel-psi.vercel.app/";
+const BASE_URL = " https://bookinghotel-1zdw.onrender.com";
 
 const initialState = {
   bookmarks: [],
